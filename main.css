@@ -1,0 +1,187 @@
+
+
+/*******************
+Site Body
+*******************/
+
+body{
+	background-color: #fff;
+	color:#999;
+	font-family:'open sans', sans-serif;
+}
+
+
+/*******************
+Header
+*******************/
+#container1{
+	height:720px;
+	width:100%;
+	background-color: #fff;
+}
+
+.header{
+	margin: 0 0 3px 0;
+	padding: 5px 0 0;
+	width:100%;
+	height:620px;
+	display:absolute;
+	background-color: transparent;
+	background-image: url(images/header2.png);
+	background-repeat: none;
+
+}
+
+
+h1{
+	font-family: 'change one', sans-serif;
+	margin: 100px 0 0 310px ;
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 0.80em;
+	color: #000;
+	text-decoration: none;
+}
+
+#hone {
+	-webkit-animation: hone 4s; 
+}
+
+@-webkit-keyframes hone {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+h2{
+	font-size: 2em;
+	margin: 135px 0 0 465px;
+	font-weight: normal;
+	color: #577fc6;
+}
+
+#htwo {
+	-webkit-animation: htwo 6s; 
+}
+
+@-webkit-keyframes htwo {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+/*******************
+Header-Nav
+*******************/
+.nav{
+	position: absolute;
+	height:20px;
+	width:98%;
+	border-radius: 2px;
+	border:solid;
+	border-color: #5c6067;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 0 0 0px;
+	padding: 1px 0 0 0;
+	width:100%;
+}
+nav li{
+	display:inline-block;
+	color: #4069c6;
+	float:center;
+	margin: 0 0 0 50px;
+}
+
+/*******************
+Conent
+*******************/
+#top {
+	height: 500px;
+  width: 100%;
+  background: #fff; 
+  margin: 3px 0 0 0;
+  font-size: 1.5em;
+	font-family: Verdana;
+	border-top: solid;
+	border-color:#4069c6;
+	border-spacing: 3px;
+}
+
+
+#middle {
+	height: 500px;
+  width: 100%;
+  background: #fff;
+  margin: 3px 0 0 0; 
+  font-size: 1.5em;
+	font-family: Verdana;
+	border-top: solid;
+	border-color:#4069c6;
+}
+
+
+#secondmiddle{
+	height: 500px;
+  width: 100%;
+  background: #fff; 
+  margin: 3px 0 0 0;
+  font-size: 1.5em;
+	font-family: Verdana;
+	border-top: solid;
+	border-color:#4069c6;
+}
+
+
+#bottom{
+	height: 500px;
+  width: 100%;
+  background: #fff;
+  margin: 3px 0 0 0; 
+  font-size: 1.5em;
+	font-family: Verdana;
+	border-top: solid;
+	border-color:#4069c6;
+}
+
+/*******************
+Content: who we are
+*******************/
+.walking{
+	width:50px;
+	height:78px;
+	background-image:url(images/walking.png);
+	float:right;
+	margin: 3px 0 0 0;
+}	
+
+.walking{
+ 	-webkit-animation-name:wlaking;	
+	-webkit-transition: 3s ease-in-out;
+}
+
+.walking:hover {
+   -webkit-transform: translate(600px, 0, 0);
+}
+
+
+
+/*******************
+Footer
+*******************/
+footer{
+	font-size:0.75em;
+	text-align:center;
+	clear:both;
+	padding-top:50px;
+	color:#ccc;
+}
+
+/*
+#wrapper{
+	max-width: 940px;
+	margin:0 auto;
+	padding: .05%;
+	background: yellow;
+}
