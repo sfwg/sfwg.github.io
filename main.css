@@ -95,7 +95,7 @@ nav li{
 }
 
 /*******************
-Conent
+Content
 *******************/
 #top {
 	height: 500px;
@@ -157,7 +157,7 @@ Content: who we are
 }	
 
 .walking{
- 	-webkit-animation-name:wlaking;	
+ 	-webkit-animation-name:walking;	
 	-webkit-transition: 3s ease-in-out;
 }
 
