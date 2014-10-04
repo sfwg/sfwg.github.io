@@ -1,0 +1,359 @@
+/* Buttons */
+/* animation */
+/* Main Colors */
+/* Paddings */
+/* line 4, ../../sass/inc/typography.scss */
+html {
+  font-size: 1em;
+}
+
+/* line 11, ../../sass/inc/typography.scss */
+html,
+input,
+button,
+textarea {
+  -webkit-font-smoothing: antialiased;
+  text-redndering: optimizedLegibility;
+}
+
+/* line 16, ../../sass/inc/typography.scss */
+body {
+  color: #646c7f;
+  font-family: Helvetica, "Helvetica  Neue", Arial, sans-serif;
+  line-height: 1.5em;
+}
+
+/* line 22, ../../sass/inc/typography.scss */
+::selection {
+  background-color: #ff7859;
+  color: #fff;
+}
+
+/* line 27, ../../sass/inc/typography.scss */
+p {
+  margin-bottom: 1.5em;
+  font-size: .88em;
+  -webkit-font-smoothing: antialiased;
+  text-redndering: optimizedLegibility;
+}
+
+/* line 35, ../../sass/inc/typography.scss */
+a,
+a:visited {
+  color: #ff7859;
+}
+/* line 38, ../../sass/inc/typography.scss */
+a:hover,
+a:visited:hover {
+  color: #646c7f;
+}
+
+/* line 43, ../../sass/inc/typography.scss */
+.av-text-white {
+  color: #fff;
+}
+
+/* line 44, ../../sass/inc/typography.scss */
+.av-text-center {
+  text-align: center;
+}
+
+/* line 46, ../../sass/inc/typography.scss */
+hr {
+  border: 0;
+  background-color: #dce3ef;
+  height: 1px;
+  margin: 1.5em 0;
+}
+
+/* line 60, ../../sass/inc/typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.5em 0 0.5em;
+  line-height: 1.2;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 67, ../../sass/inc/typography.scss */
+h5,
+h6 {
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 73, ../../sass/inc/typography.scss */
+h1 {
+  font-size: 3.3998em;
+}
+
+/* line 74, ../../sass/inc/typography.scss */
+h2 {
+  font-size: 2.827em;
+}
+
+/* line 75, ../../sass/inc/typography.scss */
+h3 {
+  font-size: 1.999em;
+}
+
+/* line 76, ../../sass/inc/typography.scss */
+h4 {
+  font-size: 1.414em;
+}
+
+/* line 77, ../../sass/inc/typography.scss */
+h5 {
+  font-size: 1em;
+}
+
+/* line 78, ../../sass/inc/typography.scss */
+h6 {
+  font-size: 0.707em;
+}
+
+/* line 81, ../../sass/inc/typography.scss */
+.av-sub {
+  font-weight: 500;
+  letter-spacing: 0.5pt;
+  font-size: .9em;
+  text-transform: uppercase;
+}
+/* line 87, ../../sass/inc/typography.scss */
+.av-sub:after {
+  content: '';
+  display: block;
+  margin: 10px 0;
+  background-color: #ff7859;
+  width: 50px;
+  height: 1px;
+}
+
+/* line 97, ../../sass/inc/typography.scss */
+.av-light-300 {
+  font-weight: 300;
+}
+
+/* line 101, ../../sass/inc/typography.scss */
+.av-has-divider:after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 1px;
+  background-color: #ff7859;
+  margin: 10px 0;
+}
+
+/* line 112, ../../sass/inc/typography.scss */
+ul,
+ol {
+  margin: 0 0 1.5em 1.5em;
+}
+
+/* line 116, ../../sass/inc/typography.scss */
+blockquote {
+  color: #b6bbc6;
+  font-style: italic;
+  margin-left: 1.5em;
+}
+/* line 122, ../../sass/inc/typography.scss */
+blockquote cite {
+  font-style: normal;
+}
+
+/* line 128, ../../sass/inc/typography.scss */
+.av-fancy-list {
+  padding: 0;
+  margin: 0;
+}
+/* line 132, ../../sass/inc/typography.scss */
+.av-fancy-list li {
+  list-style: none;
+  font-size: .85em;
+  line-height: 2.5em;
+}
+/* line 137, ../../sass/inc/typography.scss */
+.av-fancy-list li:before {
+  content: '';
+  height: 5px;
+  width: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0 10px 2px 0;
+  border: 1px solid #ff7859;
+}
+
+/* line 150, ../../sass/inc/typography.scss */
+.tooltip {
+  position: relative;
+  display: inline;
+  cursor: pointer;
+  color: #ff7859;
+  font-style: italic;
+}
+/* line 159, ../../sass/inc/typography.scss */
+.tooltip:after, .tooltip:before {
+  -webkit-transition: .5s ease all;
+  -o-transition: .5s ease all;
+  transition: .5s ease all;
+}
+/* line 165, ../../sass/inc/typography.scss */
+.tooltip:after {
+  background: #fff;
+  border-radius: 5px;
+  bottom: 0;
+  border: 1px solid #dce3ef;
+  content: attr(title);
+  left: 10%;
+  padding: 5px 15px;
+  position: absolute;
+  z-index: 98;
+  min-width: 100px;
+  text-align: center;
+  color: #646c7f;
+  opacity: 0;
+}
+/* line 181, ../../sass/inc/typography.scss */
+.tooltip:before {
+  border: solid;
+  border-color: #dce3ef transparent;
+  border-width: 6px 6px 0 6px;
+  content: "";
+  left: 50%;
+  position: absolute;
+  z-index: 99;
+  background: #fff;
+  opacity: 0;
+  bottom: 0;
+}
+/* line 194, ../../sass/inc/typography.scss */
+.tooltip:hover:before {
+  opacity: 1;
+  z-index: 99;
+  bottom: 20px;
+}
+/* line 200, ../../sass/inc/typography.scss */
+.tooltip:hover:after {
+  opacity: 1;
+  z-index: 99;
+  bottom: 26px;
+}
+
+/* line 208, ../../sass/inc/typography.scss */
+a {
+  color: #ff7859;
+  text-decoration: none;
+}
+
+/* line 213, ../../sass/inc/typography.scss */
+strong {
+  color: #ff7859;
+}
+
+/* line 217, ../../sass/inc/typography.scss */
+.highlight {
+  color: #ff7859;
+}
+
+/* line 221, ../../sass/inc/typography.scss */
+.av-right-align {
+  text-align: right;
+}
+
+/* line 222, ../../sass/inc/typography.scss */
+.av-left-align {
+  text-align: left;
+}
+
+/* line 224, ../../sass/inc/typography.scss */
+dl {
+  position: relative;
+}
+/* line 227, ../../sass/inc/typography.scss */
+dl dt {
+  float: left;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: .7em;
+  -webkit-font-smoothing: antialiased;
+  text-redndering: optimizedLegibility;
+  width: 20%;
+  box-sizing: border-box;
+}
+/* line 238, ../../sass/inc/typography.scss */
+dl dd {
+  width: 80%;
+  clear: right;
+  font-size: .8em;
+  margin-bottom: 10px;
+}
+/* line 244, ../../sass/inc/typography.scss */
+dl dd:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #e1e3e7;
+  position: absolute;
+  left: 0;
+  margin-top: 5px;
+}
+/* line 256, ../../sass/inc/typography.scss */
+dl:after {
+  content: '';
+  display: table;
+  clear: both;
+  height: 1px;
+}
+
+/* line 264, ../../sass/inc/typography.scss */
+blockquote {
+  color: #fff;
+  padding: 40px;
+  text-align: left;
+  font-size: 1.414em;
+  font-weight: 100;
+  line-height: 1.5em;
+}
+/* line 272, ../../sass/inc/typography.scss */
+blockquote cite {
+  font-size: 60%;
+  display: block;
+  color: #fff;
+  font-weight: 800;
+  margin-top: 10px;
+  text-align: right;
+}
+/* line 280, ../../sass/inc/typography.scss */
+blockquote cite:before {
+  content: '';
+  display: inline-block;
+  height: 1px;
+  width: 15px;
+  background-color: #fff;
+  vertical-align: middle;
+}
+
+/* Sections titles */
+/* line 293, ../../sass/inc/typography.scss */
+.av-section-title {
+  text-align: center;
+  margin: 80px 0;
+}
+/* line 297, ../../sass/inc/typography.scss */
+.av-section-title h2 {
+  font-weight: 300;
+  font-size: 2.1em;
+  margin-bottom: 0;
+}
+/* line 303, ../../sass/inc/typography.scss */
+.av-section-title h4 {
+  font-weight: 700;
+  font-size: .9em;
+  margin-top: 10px;
+}

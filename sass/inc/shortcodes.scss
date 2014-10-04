@@ -1,0 +1,569 @@
+@import 'settings';
+
+
+
+/* ============================================
+Generals 
+============================================ */
+
+.av-clear{ clear: both; }
+
+/* Margins and Paddings */
+
+.av-no-margin{ margin: 0; }
+.av-no-top-margin{ margin-top: 0; }
+
+.av-no-padding{ padding: 0; }
+.av-no-top-padding{ padding-top: 0; }
+
+/* ============================================
+Backgrounds 
+============================================ */
+
+.av-darker-bg{
+    background-color: $bg-darker;
+}
+
+.av-light-bg{
+    background-color: lighten($bg-darker,72%);
+}
+
+.av-yellow-bg{ 
+    background-color: $bg-yellow; 
+}
+
+.av-darken-bg{ 
+    background-color: darken($bg-darker, 10%); 
+}
+
+.av-primary-bg{ 
+    background-color: $bg-primary;
+}
+
+
+/* ============================================
+Images Backgrounds 
+============================================ */
+
+
+.av-slide-01-bg{
+    background: url('../_images/bg/slide01.jpg') no-repeat;
+    background-size: cover;
+}
+
+.av-slide-02-bg{
+    background: url('../_images/bg/slide02.jpg') no-repeat;
+    background-size: cover;
+}
+
+.av-slide-03-bg{
+    background: url('../_images/bg/slide03.jpg') no-repeat;
+    background-size: cover;
+}
+
+.av-slide-04-bg{
+    background: url('../_images/bg/slide04.jpg') no-repeat;
+    background-size: cover;
+}
+
+.av-slide-05-bg{
+    background: url('../_images/bg/slide05.jpg') no-repeat;
+    background-size: cover;
+}
+
+.av-slide-06-bg{
+    background: url('../_images/bg/slide06.jpg') no-repeat top left;
+    background-size: cover;
+}
+
+
+/* Patterns */
+.av-pattern-01{
+    background: url('../_images/patterns/feathers.jpg') repeat;
+}
+
+.av-pattern-02{
+    background: url('../_images/patterns/sativa.jpg') repeat;
+}
+
+.av-pattern-03{
+    background: url('../_images/patterns/photography.png') repeat;
+}
+
+.av-pattern-04{
+    background: url('../_images/patterns/crossword.png') repeat;
+}
+
+.av-pattern-05{
+    background: url('../_images/patterns/variations.png') repeat;
+}
+
+.av-pattern-06{
+    background: url('../_images/patterns/stardust.jpg') repeat;
+}
+
+
+/* ============================================
+Margins and Paddings  
+============================================ */
+
+.av-low-pad{ padding: $low-pad 0; }
+.av-mid-pad{ padding: $mid-pad 0; }
+.av-high-pad{ padding: $high-pad 0; }
+.av-huge-pad{ padding: $huge-pad 0; }
+
+.av-low-mar{ margin: $low-pad 0; }
+.av-mid-mar{ margin: $mid-pad 0; }
+.av-high-mar{ margin: $high-pad 0; }
+.av-huge-mar{ margin: $huge-pad 0; }
+
+/*============================================
+Milestones 
+============================================ */
+.av-milestone{
+    
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    
+    i{
+        display: block;
+        font-size: 2em;
+    }
+    
+    .av-milestone-details{
+        margin: 0;
+        font-weight: 600;
+    }
+    
+    .av-milestone-info{
+        font-size: 2.3em;
+        display: block;
+        font-weight: 200;
+        margin: 15px 0;
+        
+        &:after{
+            content: '';
+            display: block;
+            height: 1px;
+            width: 50px;
+            background-color: #fff;
+            margin: 20px auto 0;
+        }
+        
+    }
+}
+
+/* ============================================
+Person 
+============================================ */
+.av-person{
+    margin-bottom: $baseline;
+    position: relative;
+    
+    figure{
+        margin: 0;
+        img{
+            width: 100%;
+        }
+    }
+    
+    .av-peson-info{
+        padding: 20px 10px;
+        text-align: center;
+        background-color: $link-color;
+        color: #fff;
+        
+        h4{
+            margin: 0;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 1em;
+            letter-spacing: .5pt;
+        }
+        p{
+            margin:0;
+        }
+        
+    }
+    
+    &:hover > .av-person-overlay{
+        opacity: 1;
+    }
+    
+    .av-person-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(0,0,0,0.7);
+        height: 100%;
+        opacity: 0;
+        
+        -webkit-transition: $medium-animation;
+        -o-transition: $medium-animation;
+        transition: $medium-animation;
+        
+        .av-person-social {
+            
+            a{
+                height: 40px;
+                width: 40px;
+                line-height: 40px;
+                border-radius: 40px;
+                color: #fff;
+                margin: 0 5px;
+                text-align: center;
+                border: 1px solid #fff;
+                display: inline-block;
+                
+                -webkit-transition: $medium-animation;
+                -o-transition: $medium-animation;
+                transition: $medium-animation;
+                
+                &:hover{
+                    background-color: $link-color;
+                    border-color:$link-color;
+                }
+                
+            }
+        }
+        
+        p{
+            margin-top: 40px;
+            color: #fff;
+        }
+    }
+}
+
+/* ============================================
+Price Tables 
+============================================ */
+
+.av-pricing-table{
+    margin-bottom: $baseline;
+    margin-top:  $baseline;
+    
+    .av-header{
+        background-color: $link-color;
+        color: #fff;
+        padding: 25px;
+        text-align: center;
+        border: 1px solid #f4f4f4;
+        
+        p{
+            font-size: 1.7em;
+            font-weight: 300;
+            margin: 0;
+        }
+    }
+    
+    .av-mid{
+        
+        text-align: center;
+        border: 1px solid #f4f4f4;
+        border-top:none;
+        padding: 10px 0 ;
+        background-color: #3d3d3d;
+        
+        span{
+            display: inline-block;
+        }
+        
+        .av-sign{
+            vertical-align: 35px;
+        }
+        
+        .av-price{
+            color: $link-color;
+            font-size: 4em;
+            font-weight: 600;
+            line-height: initial;
+        }
+        
+        .av-cents{
+            vertical-align: 35px;
+            color: $link-color;
+            font-weight: 600;
+        }
+        
+        .av-date{
+            margin-left: -20px;
+            text-transform: lowercase;
+            font-size: .9em;
+            letter-spacing: .5pt;
+        }
+       
+    }
+    
+    ul{
+        margin: 0;
+        padding: 0;
+        border: 1px solid #f4f4f4;
+        border-top: none;
+        border-bottom: none;
+        
+        li{
+            list-style-type: none;
+            padding: 15px 0 15px 20px;
+            border-bottom: 1px solid #f4f4f4;
+            list-style-position: inside;
+            text-align: center;
+            
+            &:nth-child(even){
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+        }
+    }
+    
+    .av-foot{
+        text-align: center;
+        padding: 25px 0;
+        border: 1px solid #f4f4f4;
+        border-top: none;
+    }
+    
+}
+
+/* ============================================
+Client Testimonials 
+============================================ */
+
+.av-client-testimonial{
+    
+    text-align: center;
+    padding: 20px;
+    
+    .av-content{
+        p{
+            font-size: .9em;
+            font-weight: 500;
+            line-height: 1.6em;
+            margin-bottom: 0;
+            font-style: italic;
+        }   
+    }
+    
+    .av-client-info{
+        margin-top: 50px;
+        text-align: left;
+        
+        figure{
+            margin: -13px 20px 0 0;
+            float: left;
+            width: 70px;
+            
+            img{
+                border-radius: 100px;
+            }
+        }
+        
+        p{
+            margin: 0;
+        }
+        
+    }
+}
+
+/* ============================================
+Client List
+============================================ */
+
+.av-client-logo{
+    img{
+        width: auto;
+    }
+}
+
+@media ( max-width:480px){
+    .av-client-logo{
+        margin: 10px 0;
+    }
+    
+}
+
+
+/* ============================================
+Message Callbacks
+============================================ */
+
+.av-message-callback{
+    text-align: center;
+    color: #fff;
+    
+    h2{
+        margin: 0;
+        font-weight: 300;
+        font-size: 2em;
+    }
+}
+
+
+/* ============================================
+Cycle Plugin
+============================================ */
+
+
+.av-cycle-container{
+    .cycle-slideshow{
+        overflow: hidden;  
+        border: 1px solid #e6e6e6;
+        border-bottom: 0;
+        img{
+            padding: 5px;
+            box-sizing: border-box;
+        }
+    }
+    .cycle-pager{
+            border: 1px solid #e6e6e6;
+            a{
+                img{
+                    width: 25%;
+                    height: auto;
+                    padding: 5px;
+                    border-right: 1px solid #e6e6e6;
+                }
+
+            }
+            a:last-child img{
+                border-right: none;
+            }
+        } 
+}
+
+
+/* ============================================
+Sidebar Widgets
+============================================ */
+
+
+.av-categories-widget{
+    .av-cat-list{
+        
+        padding: 0;
+        margin: 0;
+        
+        li{
+            list-style: none;
+            font-size: .84em;
+            line-height: 2.5em;
+        
+        
+            &:before{
+                  content: '\e888';
+                  font-family: "av-icons";
+                  font-style: normal;
+                  font-weight: normal;
+                  speak: none;
+
+                  display: inline-block;
+                  text-decoration: inherit;
+                  width: 1em;
+                  margin-right: .2em;
+                  text-align: center;
+                  /* opacity: .8; */
+
+                  /* For safety - reset parent styles, that can break glyph codes*/
+                  font-variant: normal;
+                  text-transform: none;
+
+                  /* fix buttons height, for twitter bootstrap */
+                  line-height: 1em;
+
+                  /* Animation center compensation - margins should be symmetric */
+                  /* remove if not needed */
+                  margin-left: .2em;
+            }
+         }
+    }
+}
+
+/* Tags Widget */
+.av-tags-widget{
+    .av-tag-list{
+        
+        padding: 0;
+        margin: 0;
+        
+        li{
+            list-style: none;
+            font-size: .8em;
+            line-height: 2em;
+            display: inline-block;
+            
+            a{
+                color: #fff;   
+                padding: 3px 10px;
+                display: inline-block;
+                background-color: #aaa;
+                border-radius: 20px;
+                margin: 3px 0;
+                -webkit-font-smoothing: antialiased;
+                font-weight: 600; 
+                
+                &:hover{
+                    background-color: $link-color;
+                    border-color: $link-color;
+                }
+            }
+         }
+    }
+}
+
+
+/* Twitter Feed Widget */
+.av-latest-tw-feed{
+    .av-feed{
+        border-bottom: 1px solid rgba(171, 180, 192, 0.36);
+        
+        i{
+            float: left;
+            margin: 10px;
+        }
+    }
+}
+
+
+/* Portfolio List Widget */
+.av-latest-portfolio-list{
+    figure{
+        width: 21%;
+        float: left;
+        margin: 1%;
+    }
+}
+
+.av-sidebar .av-widget {
+    margin-bottom: 50px;
+}
+
+
+.av-sidebar .av-widget:first-child .av-widget-head h3 {
+    margin-top: 0;
+}
+
+
+/* ============================================
+Breadcrumbs
+============================================ */
+
+.av-breadcrumb-container{
+    padding: 40px 0;
+    margin-bottom: 100px;
+    
+    p{
+        margin: 0;
+        font-size: .9em;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+/* Buttons */
+/* animation */
+/* Main Colors */
+/* Paddings */
+/* line 6, ../../sass/inc/sidebar.scss */
+.av-sidebar .av-widget .av-widget-head {
+  margin-bottom: 20px;
+}
+/* line 7, ../../sass/inc/sidebar.scss */
+.av-sidebar .av-widget .av-widget-head h3 {
+  font-size: 1em;
+}
+/* line 11, ../../sass/inc/sidebar.scss */
+.av-sidebar .av-widget .av-widget-head:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 40px;
+  background-color: #ff7859;
+}
