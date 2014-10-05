@@ -1,0 +1,186 @@
+/* Buttons */
+/* animation */
+/* Main Colors */
+/* Paddings */
+/* line 8, ../../sass/inc/buttons.scss */
+button,
+.btn,
+.btn-primary,
+.btn-secondary,
+.btn-light,
+.btn-small,
+.btn-large,
+input[type="submit"],
+input[type="button"],
+a.btn,
+a.btn-primary,
+a.btn-secondary,
+a.btn-light,
+a.btn-small,
+a.btn-large {
+  border: 0;
+  border-radius: 3px;
+  background-color: #212428;
+  color: white;
+  cursor: pointer;
+  line-height: 1;
+  font-family: inherit;
+  font-size: .85em;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.2em 1.7em;
+  font-weight: 600;
+  -webkit-transition: 0.4s ease all;
+  -o-transition: 0.4s ease all;
+  transition: 0.4s ease all;
+}
+/* line 29, ../../sass/inc/buttons.scss */
+button:hover,
+.btn:hover,
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-light:hover,
+.btn-small:hover,
+.btn-large:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+a.btn:hover,
+a.btn-primary:hover,
+a.btn-secondary:hover,
+a.btn-light:hover,
+a.btn-small:hover,
+a.btn-large:hover {
+  background-color: #666f7c;
+  color: white;
+}
+/* line 34, ../../sass/inc/buttons.scss */
+button:active,
+.btn:active,
+.btn-primary:active,
+.btn-secondary:active,
+.btn-light:active,
+.btn-small:active,
+.btn-large:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+a.btn:active,
+a.btn-primary:active,
+a.btn-secondary:active,
+a.btn-light:active,
+a.btn-small:active,
+a.btn-large:active {
+  background-color: #444a52;
+}
+/* line 38, ../../sass/inc/buttons.scss */
+button:focus,
+.btn:focus,
+.btn-primary:focus,
+.btn-secondary:focus,
+.btn-light:focus,
+.btn-small:focus,
+.btn-large:focus,
+input[type="submit"]:focus,
+input[type="button"]:focus,
+a.btn:focus,
+a.btn-primary:focus,
+a.btn-secondary:focus,
+a.btn-light:focus,
+a.btn-small:focus,
+a.btn-large:focus {
+  outline: none;
+}
+
+/* line 43, ../../sass/inc/buttons.scss */
+.btn-primary {
+  background-color: #ff7859 !important;
+  color: white !important;
+}
+/* line 49, ../../sass/inc/buttons.scss */
+.btn-primary:hover {
+  background-color: #ff4f26 !important;
+}
+/* line 53, ../../sass/inc/buttons.scss */
+.btn-primary:active {
+  background-color: #d92800 !important;
+}
+/* line 57, ../../sass/inc/buttons.scss */
+.btn-primary:focus {
+  outline: none;
+}
+
+/* line 62, ../../sass/inc/buttons.scss */
+.btn-secondary {
+  background-color: #2eb9ea !important;
+  color: white !important;
+}
+/* line 68, ../../sass/inc/buttons.scss */
+.btn-secondary:hover {
+  background-color: #333f50 !important;
+}
+/* line 72, ../../sass/inc/buttons.scss */
+.btn-secondary:active {
+  background-color: #333f50 !important;
+}
+/* line 76, ../../sass/inc/buttons.scss */
+.btn-secondary:focus {
+  outline: none;
+}
+
+/* line 81, ../../sass/inc/buttons.scss */
+.btn-light {
+  background-color: #f9f9f9 !important;
+  color: #646464 !important;
+}
+/* line 87, ../../sass/inc/buttons.scss */
+.btn-light:hover {
+  background-color: #e0e0e0;
+  color: #646464;
+}
+/* line 92, ../../sass/inc/buttons.scss */
+.btn-light:active {
+  background-color: #b9b9b9;
+  color: #646464;
+}
+/* line 97, ../../sass/inc/buttons.scss */
+.btn-light:focus {
+  outline: none;
+}
+
+/* line 102, ../../sass/inc/buttons.scss */
+.btn-small {
+  font-size: 0.7em;
+}
+
+/* line 108, ../../sass/inc/buttons.scss */
+.btn-large {
+  font-size: 1.2em;
+}
+
+/* line 114, ../../sass/inc/buttons.scss */
+.btn-rounded {
+  border-radius: 100px;
+}
+
+/* line 118, ../../sass/inc/buttons.scss */
+.btn-bordered {
+  border: 1px solid #d3d6db;
+  background-color: transparent;
+  color: #646464;
+}
+/* line 123, ../../sass/inc/buttons.scss */
+.btn-bordered:hover {
+  background-color: #b7bdc4;
+  border-color: #b7bdc4;
+  color: white;
+}
+
+/* line 130, ../../sass/inc/buttons.scss */
+.btn-shadowed {
+  border-bottom: 3px solid #f22d00;
+}
+
+/* line 134, ../../sass/inc/buttons.scss */
+.btn-extended {
+  width: 100%;
+  text-align: center;
+}

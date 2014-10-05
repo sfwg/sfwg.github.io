@@ -1,0 +1,121 @@
+@import 'settings';
+
+.av-contact-box{
+
+    padding-left: 60px;
+    position: relative;
+    margin-bottom: 40px;
+    
+    .av-icon{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        border: 1px solid #fff;
+        display: block;
+        border-radius: 50px;
+        text-align: center;
+        color: $link-color;
+        font-size: 1.2em;
+    }
+    
+    .av_icon_mail:before{
+        margin-top: 12px;
+        height: 50px;
+        width: 40px;
+        display: block;
+    }
+    
+    p{
+        margin: 0;
+        color: #fff;
+    }
+
+}
+
+.av-contact-form{
+    
+    padding-bottom: $high-pad;
+    
+    .av-form-control{
+        
+        margin-bottom: 15px;
+        
+        input:not([type="submit"]){
+            width: 100%;
+            padding: 10px;
+            background-color: rgba(255,255,255,.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            display: inline-block;
+            color: #fff;
+            font-size: .9em;
+            
+            -webkit-font-smoothing: antialiased;
+            font-smoothing: antialiased;
+            
+            &:focus{
+                outline: none;
+                border-color:rgba(255, 255, 255, 0.8);
+            }
+        }
+        
+        label{
+            color: #fff;
+            display: inline-block;
+            font-weight: 600;
+            font-size: .9em;
+        }
+        
+        textarea{
+            width: 100%;
+            display: block;
+            resize: vertical;
+            padding: 10px;
+            color: #fff;
+            font-size: .9em;
+            background-color: rgba(255,255,255,.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            
+            &:focus{
+                outline: none;
+                border-color:rgba(255, 255, 255, 0.8);
+            }
+        }    
+    } 
+    
+    .av-required{ color: red; }
+    
+}
+
+.av-copyright{
+    padding: $mid-pad;
+}
+
+
+
+.av-search-form{
+    
+    .av-form-control{
+        
+        margin-bottom: 15px;
+        
+        input:not([type="submit"]){
+            width: 100%;
+            padding: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            font-size: .9em;
+            
+            -webkit-font-smoothing: antialiased;
+            font-smoothing: antialiased;
+            
+            &:focus{
+                outline: none;
+                border-color:lighten($link-color, 10%);
+            }
+        } 
+    } 
+    
+}

@@ -1,0 +1,580 @@
+/* Buttons */
+/* animation */
+/* Main Colors */
+/* Paddings */
+/* ============================================
+Generals 
+============================================ */
+/* line 9, ../../sass/inc/shortcodes.scss */
+.av-clear {
+  clear: both;
+}
+
+/* Margins and Paddings */
+/* line 13, ../../sass/inc/shortcodes.scss */
+.av-no-margin {
+  margin: 0;
+}
+
+/* line 14, ../../sass/inc/shortcodes.scss */
+.av-no-top-margin {
+  margin-top: 0;
+}
+
+/* line 16, ../../sass/inc/shortcodes.scss */
+.av-no-padding {
+  padding: 0;
+}
+
+/* line 17, ../../sass/inc/shortcodes.scss */
+.av-no-top-padding {
+  padding-top: 0;
+}
+
+/* ============================================
+Backgrounds 
+============================================ */
+/* line 23, ../../sass/inc/shortcodes.scss */
+.av-darker-bg {
+  background-color: #333f50;
+}
+
+/* line 27, ../../sass/inc/shortcodes.scss */
+.av-light-bg {
+  background-color: #f8f9fa;
+}
+
+/* line 31, ../../sass/inc/shortcodes.scss */
+.av-yellow-bg {
+  background-color: #f3c54a;
+}
+
+/* line 35, ../../sass/inc/shortcodes.scss */
+.av-darken-bg {
+  background-color: #1f2631;
+}
+
+/* line 39, ../../sass/inc/shortcodes.scss */
+.av-primary-bg {
+  background-color: #ff7859;
+}
+
+/* ============================================
+Images Backgrounds 
+============================================ */
+/* line 49, ../../sass/inc/shortcodes.scss */
+.av-slide-01-bg {
+  background: url("../_images/bg/slide01.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 54, ../../sass/inc/shortcodes.scss */
+.av-slide-02-bg {
+  background: url("../_images/bg/slide02.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 59, ../../sass/inc/shortcodes.scss */
+.av-slide-03-bg {
+  background: url("../_images/bg/slide03.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 64, ../../sass/inc/shortcodes.scss */
+.av-slide-04-bg {
+  background: url("../_images/bg/slide04.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 69, ../../sass/inc/shortcodes.scss */
+.av-slide-05-bg {
+  background: url("../_images/bg/slide05.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* line 74, ../../sass/inc/shortcodes.scss */
+.av-slide-06-bg {
+  background: url("../_images/bg/slide06.jpg") no-repeat top left;
+  background-size: cover;
+}
+
+/* Patterns */
+/* line 81, ../../sass/inc/shortcodes.scss */
+.av-pattern-01 {
+  background: url("../_images/patterns/feathers.jpg") repeat;
+}
+
+/* line 85, ../../sass/inc/shortcodes.scss */
+.av-pattern-02 {
+  background: url("../_images/patterns/sativa.jpg") repeat;
+}
+
+/* line 89, ../../sass/inc/shortcodes.scss */
+.av-pattern-03 {
+  background: url("../_images/patterns/photography.png") repeat;
+}
+
+/* line 93, ../../sass/inc/shortcodes.scss */
+.av-pattern-04 {
+  background: url("../_images/patterns/crossword.png") repeat;
+}
+
+/* line 97, ../../sass/inc/shortcodes.scss */
+.av-pattern-05 {
+  background: url("../_images/patterns/variations.png") repeat;
+}
+
+/* line 101, ../../sass/inc/shortcodes.scss */
+.av-pattern-06 {
+  background: url("../_images/patterns/stardust.jpg") repeat;
+}
+
+/* ============================================
+Margins and Paddings  
+============================================ */
+/* line 110, ../../sass/inc/shortcodes.scss */
+.av-low-pad {
+  padding: 1em 0;
+}
+
+/* line 111, ../../sass/inc/shortcodes.scss */
+.av-mid-pad {
+  padding: 2em 0;
+}
+
+/* line 112, ../../sass/inc/shortcodes.scss */
+.av-high-pad {
+  padding: 3em 0;
+}
+
+/* line 113, ../../sass/inc/shortcodes.scss */
+.av-huge-pad {
+  padding: 6em 0;
+}
+
+/* line 115, ../../sass/inc/shortcodes.scss */
+.av-low-mar {
+  margin: 1em 0;
+}
+
+/* line 116, ../../sass/inc/shortcodes.scss */
+.av-mid-mar {
+  margin: 2em 0;
+}
+
+/* line 117, ../../sass/inc/shortcodes.scss */
+.av-high-mar {
+  margin: 3em 0;
+}
+
+/* line 118, ../../sass/inc/shortcodes.scss */
+.av-huge-mar {
+  margin: 6em 0;
+}
+
+/*============================================
+Milestones 
+============================================ */
+/* line 123, ../../sass/inc/shortcodes.scss */
+.av-milestone {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+/* line 129, ../../sass/inc/shortcodes.scss */
+.av-milestone i {
+  display: block;
+  font-size: 2em;
+}
+/* line 134, ../../sass/inc/shortcodes.scss */
+.av-milestone .av-milestone-details {
+  margin: 0;
+  font-weight: 600;
+}
+/* line 139, ../../sass/inc/shortcodes.scss */
+.av-milestone .av-milestone-info {
+  font-size: 2.3em;
+  display: block;
+  font-weight: 200;
+  margin: 15px 0;
+}
+/* line 145, ../../sass/inc/shortcodes.scss */
+.av-milestone .av-milestone-info:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 50px;
+  background-color: #fff;
+  margin: 20px auto 0;
+}
+
+/* ============================================
+Person 
+============================================ */
+/* line 160, ../../sass/inc/shortcodes.scss */
+.av-person {
+  margin-bottom: 1.5em;
+  position: relative;
+}
+/* line 164, ../../sass/inc/shortcodes.scss */
+.av-person figure {
+  margin: 0;
+}
+/* line 166, ../../sass/inc/shortcodes.scss */
+.av-person figure img {
+  width: 100%;
+}
+/* line 171, ../../sass/inc/shortcodes.scss */
+.av-person .av-peson-info {
+  padding: 20px 10px;
+  text-align: center;
+  background-color: #ff7859;
+  color: #fff;
+}
+/* line 177, ../../sass/inc/shortcodes.scss */
+.av-person .av-peson-info h4 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: .5pt;
+}
+/* line 184, ../../sass/inc/shortcodes.scss */
+.av-person .av-peson-info p {
+  margin: 0;
+}
+/* line 190, ../../sass/inc/shortcodes.scss */
+.av-person:hover > .av-person-overlay {
+  opacity: 1;
+}
+/* line 194, ../../sass/inc/shortcodes.scss */
+.av-person .av-person-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+/* line 211, ../../sass/inc/shortcodes.scss */
+.av-person .av-person-overlay .av-person-social a {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 40px;
+  color: #fff;
+  margin: 0 5px;
+  text-align: center;
+  border: 1px solid #fff;
+  display: inline-block;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+/* line 226, ../../sass/inc/shortcodes.scss */
+.av-person .av-person-overlay .av-person-social a:hover {
+  background-color: #ff7859;
+  border-color: #ff7859;
+}
+/* line 234, ../../sass/inc/shortcodes.scss */
+.av-person .av-person-overlay p {
+  margin-top: 40px;
+  color: #fff;
+}
+
+/* ============================================
+Price Tables 
+============================================ */
+/* line 245, ../../sass/inc/shortcodes.scss */
+.av-pricing-table {
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+}
+/* line 249, ../../sass/inc/shortcodes.scss */
+.av-pricing-table .av-header {
+  background-color: #ff7859;
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+  border: 1px solid #f4f4f4;
+}
+/* line 256, ../../sass/inc/shortcodes.scss */
+.av-pricing-table .av-header p {
+  font-size: 1.7em;
+  font-weight: 300;
+  margin: 0;
+}
+/* line 263, ../../sass/inc/shortcodes.scss */
+.av-pricing-table .av-mid {
+  text-align: center;
+  border: 1px solid #f4f4f4;
+  border-top: none;
+  padding: 10px 0;
+  background-color: #3d3d3d;
+}
+/* line 271, ../../sass/inc/shortcodes.scss */
+.av-pricing-table .av-mid span {
+  display: inline-block;
+}
+/* line 275, ../../sass/inc/shortcodes.scss */
+.av-pricing-table .av-mid .av-sign {
+  vertical-align: 35px;
+}
+/* line 279, ../../sass/inc/shortcodes.scss */
+.av-pricing-table .av-mid .av-price {
+  color: #ff7859;
+  font-size: 4em;
+  font-weight: 600;
+  line-height: initial;
+}
+/* line 286, ../../sass/inc/shortcodes.scss */
+.av-pricing-table .av-mid .av-cents {
+  vertical-align: 35px;
+  color: #ff7859;
+  font-weight: 600;
+}
+/* line 292, ../../sass/inc/shortcodes.scss */
+.av-pricing-table .av-mid .av-date {
+  margin-left: -20px;
+  text-transform: lowercase;
+  font-size: .9em;
+  letter-spacing: .5pt;
+}
+/* line 301, ../../sass/inc/shortcodes.scss */
+.av-pricing-table ul {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #f4f4f4;
+  border-top: none;
+  border-bottom: none;
+}
+/* line 308, ../../sass/inc/shortcodes.scss */
+.av-pricing-table ul li {
+  list-style-type: none;
+  padding: 15px 0 15px 20px;
+  border-bottom: 1px solid #f4f4f4;
+  list-style-position: inside;
+  text-align: center;
+}
+/* line 315, ../../sass/inc/shortcodes.scss */
+.av-pricing-table ul li:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/* line 321, ../../sass/inc/shortcodes.scss */
+.av-pricing-table .av-foot {
+  text-align: center;
+  padding: 25px 0;
+  border: 1px solid #f4f4f4;
+  border-top: none;
+}
+
+/* ============================================
+Client Testimonials 
+============================================ */
+/* line 334, ../../sass/inc/shortcodes.scss */
+.av-client-testimonial {
+  text-align: center;
+  padding: 20px;
+}
+/* line 340, ../../sass/inc/shortcodes.scss */
+.av-client-testimonial .av-content p {
+  font-size: .9em;
+  font-weight: 500;
+  line-height: 1.6em;
+  margin-bottom: 0;
+  font-style: italic;
+}
+/* line 349, ../../sass/inc/shortcodes.scss */
+.av-client-testimonial .av-client-info {
+  margin-top: 50px;
+  text-align: left;
+}
+/* line 353, ../../sass/inc/shortcodes.scss */
+.av-client-testimonial .av-client-info figure {
+  margin: -13px 20px 0 0;
+  float: left;
+  width: 70px;
+}
+/* line 358, ../../sass/inc/shortcodes.scss */
+.av-client-testimonial .av-client-info figure img {
+  border-radius: 100px;
+}
+/* line 363, ../../sass/inc/shortcodes.scss */
+.av-client-testimonial .av-client-info p {
+  margin: 0;
+}
+
+/* ============================================
+Client List
+============================================ */
+/* line 375, ../../sass/inc/shortcodes.scss */
+.av-client-logo img {
+  width: auto;
+}
+
+@media (max-width: 480px) {
+  /* line 381, ../../sass/inc/shortcodes.scss */
+  .av-client-logo {
+    margin: 10px 0;
+  }
+}
+/* ============================================
+Message Callbacks
+============================================ */
+/* line 392, ../../sass/inc/shortcodes.scss */
+.av-message-callback {
+  text-align: center;
+  color: #fff;
+}
+/* line 396, ../../sass/inc/shortcodes.scss */
+.av-message-callback h2 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+/* ============================================
+Cycle Plugin
+============================================ */
+/* line 410, ../../sass/inc/shortcodes.scss */
+.av-cycle-container .cycle-slideshow {
+  overflow: hidden;
+  border: 1px solid #e6e6e6;
+  border-bottom: 0;
+}
+/* line 414, ../../sass/inc/shortcodes.scss */
+.av-cycle-container .cycle-slideshow img {
+  padding: 5px;
+  box-sizing: border-box;
+}
+/* line 419, ../../sass/inc/shortcodes.scss */
+.av-cycle-container .cycle-pager {
+  border: 1px solid #e6e6e6;
+}
+/* line 422, ../../sass/inc/shortcodes.scss */
+.av-cycle-container .cycle-pager a img {
+  width: 25%;
+  height: auto;
+  padding: 5px;
+  border-right: 1px solid #e6e6e6;
+}
+/* line 430, ../../sass/inc/shortcodes.scss */
+.av-cycle-container .cycle-pager a:last-child img {
+  border-right: none;
+}
+
+/* ============================================
+Sidebar Widgets
+============================================ */
+/* line 443, ../../sass/inc/shortcodes.scss */
+.av-categories-widget .av-cat-list {
+  padding: 0;
+  margin: 0;
+}
+/* line 448, ../../sass/inc/shortcodes.scss */
+.av-categories-widget .av-cat-list li {
+  list-style: none;
+  font-size: .84em;
+  line-height: 2.5em;
+}
+/* line 454, ../../sass/inc/shortcodes.scss */
+.av-categories-widget .av-cat-list li:before {
+  content: '\e888';
+  font-family: "av-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+}
+
+/* Tags Widget */
+/* line 485, ../../sass/inc/shortcodes.scss */
+.av-tags-widget .av-tag-list {
+  padding: 0;
+  margin: 0;
+}
+/* line 490, ../../sass/inc/shortcodes.scss */
+.av-tags-widget .av-tag-list li {
+  list-style: none;
+  font-size: .8em;
+  line-height: 2em;
+  display: inline-block;
+}
+/* line 496, ../../sass/inc/shortcodes.scss */
+.av-tags-widget .av-tag-list li a {
+  color: #fff;
+  padding: 3px 10px;
+  display: inline-block;
+  background-color: #aaa;
+  border-radius: 20px;
+  margin: 3px 0;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+}
+/* line 506, ../../sass/inc/shortcodes.scss */
+.av-tags-widget .av-tag-list li a:hover {
+  background-color: #ff7859;
+  border-color: #ff7859;
+}
+
+/* Twitter Feed Widget */
+/* line 518, ../../sass/inc/shortcodes.scss */
+.av-latest-tw-feed .av-feed {
+  border-bottom: 1px solid rgba(171, 180, 192, 0.36);
+}
+/* line 521, ../../sass/inc/shortcodes.scss */
+.av-latest-tw-feed .av-feed i {
+  float: left;
+  margin: 10px;
+}
+
+/* Portfolio List Widget */
+/* line 531, ../../sass/inc/shortcodes.scss */
+.av-latest-portfolio-list figure {
+  width: 21%;
+  float: left;
+  margin: 1%;
+}
+
+/* line 538, ../../sass/inc/shortcodes.scss */
+.av-sidebar .av-widget {
+  margin-bottom: 50px;
+}
+
+/* line 543, ../../sass/inc/shortcodes.scss */
+.av-sidebar .av-widget:first-child .av-widget-head h3 {
+  margin-top: 0;
+}
+
+/* ============================================
+Breadcrumbs
+============================================ */
+/* line 552, ../../sass/inc/shortcodes.scss */
+.av-breadcrumb-container {
+  padding: 40px 0;
+  margin-bottom: 100px;
+}
+/* line 556, ../../sass/inc/shortcodes.scss */
+.av-breadcrumb-container p {
+  margin: 0;
+  font-size: .9em;
+}

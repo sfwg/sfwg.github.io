@@ -1,0 +1,26 @@
+@import 'settings';
+
+.av-sidebar{
+    
+    .av-widget{
+        .av-widget-head{
+            h3{
+               font-size: 1em;
+            }
+            
+            &:after{
+                content: '';
+                display: block;
+                height: 1px;
+                width: 40px;
+                background-color: $link-color;
+            }
+            margin-bottom: 20px;
+        }
+    }
+    
+    
+    
+}
+
+

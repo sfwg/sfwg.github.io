@@ -1,0 +1,109 @@
+/* Buttons */
+/* animation */
+/* Main Colors */
+/* Paddings */
+/* line 3, ../../sass/inc/navegation.scss */
+.av-main-header {
+  position: relative;
+  border-bottom: 1px solid #d3d6dc;
+}
+/* line 7, ../../sass/inc/navegation.scss */
+.av-main-header.stuck {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999999;
+}
+/* line 16, ../../sass/inc/navegation.scss */
+.av-main-header .av-mobile-toggle {
+  position: absolute;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: #333f50;
+  color: #fff;
+  line-height: 52px;
+  text-align: center;
+  top: 50%;
+  margin-top: -25px;
+  z-index: 999;
+  font-size: 1.8em;
+  display: none;
+}
+/* line 32, ../../sass/inc/navegation.scss */
+.av-main-header .av-mobile-nav {
+  display: none;
+}
+/* line 34, ../../sass/inc/navegation.scss */
+.av-main-header .av-logo-container {
+  margin: 1em 0;
+}
+/* line 38, ../../sass/inc/navegation.scss */
+.av-main-header .av-main-nav {
+  text-align: right;
+  margin: 0;
+}
+/* line 41, ../../sass/inc/navegation.scss */
+.av-main-header .av-main-nav li {
+  list-style: none;
+  display: inline-block;
+  font-size: .9em;
+  margin: 0;
+}
+/* line 46, ../../sass/inc/navegation.scss */
+.av-main-header .av-main-nav li a {
+  color: #646c7f;
+  padding: 2em .9em;
+  display: inline-block;
+  border-bottom: 1px solid transparent;
+  margin-bottom: -1px;
+}
+/* line 53, ../../sass/inc/navegation.scss */
+.av-main-header .av-main-nav li a:hover, .av-main-header .av-main-nav li a.active {
+  color: #ff7859;
+  border-bottom: 1px solid #ff7859;
+}
+
+/* Responsive Menu */
+@media (max-width: 960px) {
+  /* line 66, ../../sass/inc/navegation.scss */
+  .av-main-nav {
+    display: none;
+  }
+
+  /* line 68, ../../sass/inc/navegation.scss */
+  .av-mobile-toggle {
+    display: block !important;
+  }
+
+  /* line 70, ../../sass/inc/navegation.scss */
+  .av-mobile-nav {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 700;
+    letter-spacing: .5pt;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }
+  /* line 88, ../../sass/inc/navegation.scss */
+  .av-mobile-nav li {
+    background-color: #333f50;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  /* line 92, ../../sass/inc/navegation.scss */
+  .av-mobile-nav li a {
+    color: #fff;
+  }
+}

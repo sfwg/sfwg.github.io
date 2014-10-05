@@ -1,0 +1,129 @@
+/* Buttons */
+/* animation */
+/* Main Colors */
+/* Paddings */
+/* line 3, ../../sass/inc/portfolio.scss */
+.av-portfolio-item {
+  width: 25%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+/* line 10, ../../sass/inc/portfolio.scss */
+.av-portfolio-item figure {
+  margin: 0;
+}
+/* line 13, ../../sass/inc/portfolio.scss */
+.av-portfolio-item figure img {
+  width: 100%;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+/* line 22, ../../sass/inc/portfolio.scss */
+.av-portfolio-item .av-portfolio-overlay {
+  position: absolute;
+  top: -6em;
+  text-align: center;
+  width: 100%;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+/* line 34, ../../sass/inc/portfolio.scss */
+.av-portfolio-item .av-portfolio-overlay .av-icon {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  margin: 30px 5px 0;
+  color: #fff;
+  background-color: #ff7859;
+}
+/* line 45, ../../sass/inc/portfolio.scss */
+.av-portfolio-item .av-portfolio-overlay .av-icon:hover {
+  background-color: #373b46;
+}
+/* line 51, ../../sass/inc/portfolio.scss */
+.av-portfolio-item .av-portfolio-info {
+  position: absolute;
+  bottom: -7.5em;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+  background-color: #fff;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+/* line 63, ../../sass/inc/portfolio.scss */
+.av-portfolio-item .av-portfolio-info h3 {
+  margin: 0;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #646c7f;
+  font-weight: 500;
+  padding-top: 10px;
+}
+/* line 72, ../../sass/inc/portfolio.scss */
+.av-portfolio-item .av-portfolio-info p {
+  margin: 0;
+  font-size: .8em;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #7d8599;
+}
+/* line 78, ../../sass/inc/portfolio.scss */
+.av-portfolio-item .av-portfolio-info p a {
+  color: #9aa0af;
+}
+/* line 81, ../../sass/inc/portfolio.scss */
+.av-portfolio-item .av-portfolio-info p a:hover {
+  color: #ff7859;
+}
+/* line 89, ../../sass/inc/portfolio.scss */
+.av-portfolio-item:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 95, ../../sass/inc/portfolio.scss */
+.av-portfolio-item:hover > .av-portfolio-info {
+  bottom: 0;
+}
+/* line 99, ../../sass/inc/portfolio.scss */
+.av-portfolio-item:hover > .av-portfolio-overlay {
+  top: 1em;
+}
+/* line 102, ../../sass/inc/portfolio.scss */
+.av-portfolio-item:hover figure > img {
+  -webkit-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+
+/* Tablet Resolution */
+@media (max-width: 768px) {
+  /* line 115, ../../sass/inc/portfolio.scss */
+  .av-portfolio-item {
+    width: 33.333333336%;
+  }
+}
+/* Mobile Resolution */
+@media (max-width: 480px) {
+  /* line 123, ../../sass/inc/portfolio.scss */
+  .av-portfolio-item {
+    width: 50%;
+  }
+}
+/* Extra Small Mobile Resolution */
+@media (max-width: 320px) {
+  /* line 130, ../../sass/inc/portfolio.scss */
+  .av-portfolio-item {
+    width: 100%;
+  }
+}

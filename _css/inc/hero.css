@@ -1,0 +1,47 @@
+/* Buttons */
+/* animation */
+/* Main Colors */
+/* Paddings */
+/* line 3, ../../sass/inc/hero.scss */
+.av-hero-section {
+  padding: 250px 0;
+}
+/* line 7, ../../sass/inc/hero.scss */
+.av-hero-section * {
+  text-align: center;
+}
+/* line 9, ../../sass/inc/hero.scss */
+.av-hero-section .av-hero-title {
+  text-transform: uppercase;
+  margin: 0;
+}
+/* line 14, ../../sass/inc/hero.scss */
+.av-hero-section .av-hero-desc {
+  font-size: 1em;
+  margin: 0 0 20px 0;
+}
+/* line 18, ../../sass/inc/hero.scss */
+.av-hero-section .av-hero-desc:after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+  margin: 20px auto 10px;
+}
+/* line 28, ../../sass/inc/hero.scss */
+.av-hero-section a {
+  margin: 15px;
+}
+
+@media (max-width: 480px) {
+  /* line 35, ../../sass/inc/hero.scss */
+  .av-hero-title {
+    font-size: 1.7em;
+  }
+
+  /* line 39, ../../sass/inc/hero.scss */
+  .av-hero-desc {
+    font-size: .8em;
+  }
+}

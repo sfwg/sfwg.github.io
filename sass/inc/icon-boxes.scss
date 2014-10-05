@@ -1,0 +1,108 @@
+@import 'settings';
+
+.av-icon-box{
+    
+    text-align: center;
+    margin-bottom: 30px;
+    
+    i{
+        height: 90px;
+        width: 90px;
+        line-height: 90px;
+        border: 1px solid $text-color;
+        display: block;
+        margin: 0 auto 20px;
+        border-radius: 90px;
+        font-size: 2em;
+        
+        -webkit-transition: $medium-animation;
+        -o-transition: $medium-animation;
+        transition: $medium-animation;
+    }
+    
+    h3{
+        font-size: 1em;
+        color: darken($text-color, 10%);
+    }
+    
+    &:hover > i{
+        background-color: $link-color;
+        color: #fff;
+        border-color: $link-color;
+    }
+}
+
+/* Inline icon box */
+
+.av-inline-icon-box{
+    
+    h3{
+        font-size: 1.1em;
+        margin-bottom: 0;
+        font-weight: 500;
+        i{
+            margin-right: 10px;
+            color: $link-color;
+            font-size: 1.2em;
+        }
+    }
+    
+}
+
+/* Right side icon box */
+
+.av-right-side-icon-box{
+    
+    position: relative;
+    padding-right: 5em;
+    text-align: right;
+    h3{
+        font-size: 1.1em;
+        margin-bottom: 15px;
+        margin-top: 0;
+        font-weight: 600;
+    }
+    
+    i{
+        right: 0;
+        position: absolute;
+        color: $link-color;
+        height: 3em;
+        border-radius: 3em;
+        width: 3em;
+        line-height: 3em;
+        font-size: 1.2em;
+        background-color: #fff;
+        text-align: center;
+    }
+    
+}
+
+/* Right side icon box */
+
+.av-left-side-icon-box{
+    
+    position: relative;
+    padding-left: 5em;
+    text-align: left;
+    h3{
+        font-size: 1.1em;
+        margin-bottom: 15px;
+        margin-top: 0;
+        font-weight: 600;
+    }
+    
+    i{
+        left: 0;
+        position: absolute;
+        color: $link-color;
+        height: 3em;
+        border-radius: 3em;
+        width: 3em;
+        line-height: 3em;
+        font-size: 1.2em;
+        background-color:  #fff;
+        text-align: center;
+    }
+    
+}

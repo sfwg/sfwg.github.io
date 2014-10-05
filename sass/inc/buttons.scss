@@ -1,0 +1,137 @@
+@import 'settings';
+
+   
+button,
+.btn,
+input[type="submit"],
+input[type="button"],
+a.btn{
+    border: 0;
+    border-radius: $btn-roundness;
+    
+    background-color: $btn-default-bg;
+    color: $btn-default-text-color;
+    
+    cursor: pointer;
+    line-height: 1;
+    font-family: inherit;
+    font-size: .85em;
+    text-decoration: none;
+    
+    display: inline-block;
+    padding: 1.2em 1.7em;
+    font-weight: 600;
+    
+    -webkit-transition: $btn-hover-animation;
+    -o-transition: $btn-hover-animation;
+    transition: $btn-hover-animation;
+    
+    &:hover{
+        background-color: lighten( $btn-default-bg, 30% );
+        color: $btn-default-text-color;
+    }
+    
+    &:active{
+        background-color: lighten( $btn-default-bg, 15% );
+    }
+    
+    &:focus{
+        outline: none;
+    }
+}
+
+.btn-primary{
+    @extend .btn;
+    
+    background-color: $btn-primary-bg !important;
+    color: $btn-primary-text-color !important;
+    
+    &:hover{
+        background-color: darken( $btn-primary-bg, 10% ) !important;
+    }
+    
+    &:active{
+        background-color: darken( $btn-primary-bg, 25% )!important;
+    }
+    
+    &:focus{
+        outline: none;
+    }
+}
+
+.btn-secondary{
+    @extend .btn;
+    
+    background-color: $btn-secondary-bg !important;
+    color: $btn-secondary-text-color !important;
+
+    &:hover{
+        background-color: $bg-darker !important;
+    }
+    
+    &:active{
+        background-color: $bg-darker !important;
+    }
+    
+    &:focus{
+        outline: none;
+    }
+}
+
+.btn-light{
+    @extend .btn;
+    
+    background-color: $btn-light-bg !important;
+    color: $btn-light-text-color !important;
+
+    &:hover{
+        background-color: darken( $btn-light-bg, 10% );
+        color: $btn-light-text-color;
+    }
+    
+    &:active{
+        background-color: darken( $btn-light-bg, 25% );
+        color: $btn-light-text-color;
+    }
+    
+    &:focus{
+        outline: none;
+    }
+}
+
+.btn-small{
+    @extend .btn;
+    
+    font-size: $btn-small-font-size;
+}
+
+.btn-large{
+    @extend .btn;
+    
+    font-size: $btn-large-font-size;
+}
+
+.btn-rounded{
+    border-radius: 100px;
+}
+
+.btn-bordered{
+    border:1px solid lighten($btn-default-bg, 70%);
+    background-color: transparent;
+    color: $btn-light-text-color;
+    
+    &:hover{
+        background-color: lighten($btn-default-bg, 60%);
+        border-color: lighten($btn-default-bg, 60%);
+        color: $btn-default-text-color;
+    }
+}
+
+.btn-shadowed{
+    border-bottom: 3px solid darken($btn-primary-bg, 20%);
+}
+
+.btn-extended{
+    width: 100%;
+    text-align: center;
+}

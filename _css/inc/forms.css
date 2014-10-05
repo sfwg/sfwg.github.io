@@ -1,0 +1,115 @@
+/* Buttons */
+/* animation */
+/* Main Colors */
+/* Paddings */
+/* line 3, ../../sass/inc/forms.scss */
+.av-contact-box {
+  padding-left: 60px;
+  position: relative;
+  margin-bottom: 40px;
+}
+/* line 9, ../../sass/inc/forms.scss */
+.av-contact-box .av-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border: 1px solid #fff;
+  display: block;
+  border-radius: 50px;
+  text-align: center;
+  color: #ff7859;
+  font-size: 1.2em;
+}
+/* line 24, ../../sass/inc/forms.scss */
+.av-contact-box .av_icon_mail:before {
+  margin-top: 12px;
+  height: 50px;
+  width: 40px;
+  display: block;
+}
+/* line 31, ../../sass/inc/forms.scss */
+.av-contact-box p {
+  margin: 0;
+  color: #fff;
+}
+
+/* line 38, ../../sass/inc/forms.scss */
+.av-contact-form {
+  padding-bottom: 3em;
+}
+/* line 42, ../../sass/inc/forms.scss */
+.av-contact-form .av-form-control {
+  margin-bottom: 15px;
+}
+/* line 46, ../../sass/inc/forms.scss */
+.av-contact-form .av-form-control input:not([type="submit"]) {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  color: #fff;
+  font-size: .9em;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+/* line 58, ../../sass/inc/forms.scss */
+.av-contact-form .av-form-control input:not([type="submit"]):focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.8);
+}
+/* line 64, ../../sass/inc/forms.scss */
+.av-contact-form .av-form-control label {
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  font-size: .9em;
+}
+/* line 71, ../../sass/inc/forms.scss */
+.av-contact-form .av-form-control textarea {
+  width: 100%;
+  display: block;
+  resize: vertical;
+  padding: 10px;
+  color: #fff;
+  font-size: .9em;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+/* line 81, ../../sass/inc/forms.scss */
+.av-contact-form .av-form-control textarea:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.8);
+}
+/* line 88, ../../sass/inc/forms.scss */
+.av-contact-form .av-required {
+  color: red;
+}
+
+/* line 92, ../../sass/inc/forms.scss */
+.av-copyright {
+  padding: 2em;
+}
+
+/* line 100, ../../sass/inc/forms.scss */
+.av-search-form .av-form-control {
+  margin-bottom: 15px;
+}
+/* line 104, ../../sass/inc/forms.scss */
+.av-search-form .av-form-control input:not([type="submit"]) {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  font-size: .9em;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+/* line 114, ../../sass/inc/forms.scss */
+.av-search-form .av-form-control input:not([type="submit"]):focus {
+  outline: none;
+  border-color: #ffa18c;
+}

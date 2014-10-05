@@ -1,0 +1,133 @@
+@import 'settings';
+
+.av-portfolio-item{
+    
+    width: 25%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    figure{
+        margin: 0;
+        
+        img{
+            width: 100%;
+        
+        -webkit-transition: $medium-animation;
+        -o-transition: $medium-animation;
+        transition: $medium-animation;
+        }
+    }
+    
+    .av-portfolio-overlay{
+        
+        position: absolute;
+        top: -6em;
+        text-align: center;
+        width: 100%;
+        
+        -webkit-transition: $medium-animation;
+        -o-transition: $medium-animation;
+        transition: $medium-animation;
+        
+        
+        .av-icon{
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+            border-radius: 50px;
+            text-align: center;
+            display: inline-block;
+            margin: 30px 5px 0 ;
+            color: #fff;
+            background-color: $link-color;
+            
+            &:hover{
+               background-color: darken($text-color , 20% );
+            }
+        }
+    }
+    
+    .av-portfolio-info{
+        position: absolute;
+        bottom: -7.5em;
+        width: 100%;
+        text-align: center;
+        padding: 5px 0;
+        background-color: #fff;
+        
+        -webkit-transition: $medium-animation;
+        -o-transition: $medium-animation;
+        transition: $medium-animation;
+        
+        h3{
+            margin: 0;
+            font-size: 1em;
+            text-transform: uppercase;
+            color: $text-color;
+            font-weight: 500;
+            padding-top: 10px;
+        }
+        
+        p{
+            margin: 0;
+            font-size: .8em;
+            font-weight: 500;
+            text-transform: capitalize;
+            color: lighten( $text-color, 10% );
+            a{
+                color: lighten( $text-color, 20% );
+                
+                &:hover{
+                    color: $link-color;
+                }
+            }
+        }
+    }
+    
+    
+    &:after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+    
+    &:hover > .av-portfolio-info{
+        bottom: 0;
+    }
+    
+    &:hover > .av-portfolio-overlay{
+        top: 1em;
+    }
+    &:hover figure > img{
+        -webkit-transform: scale(1.2,1.2);
+        -ms-transform: scale(1.2,1.2);
+        -o-transform: scale(1.2,1.2);
+        transform: scale(1.2,1.2);
+    }
+
+}
+
+
+/* Tablet Resolution */
+
+@media ( max-width:768px){
+    .av-portfolio-item{
+        width: 33.333333336%;
+    }
+}
+
+/* Mobile Resolution */
+
+@media ( max-width:480px){
+    .av-portfolio-item{
+        width: 50%;
+    }
+}
+/* Extra Small Mobile Resolution */
+
+@media ( max-width:320px){
+    .av-portfolio-item{
+        width: 100%;
+    }
+}
