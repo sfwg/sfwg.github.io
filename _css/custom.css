@@ -1,0 +1,31 @@
+
+
+.sfwg-hero {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+.orange {
+  color: orange;
+}
+.blue {
+  color: blue;
+}
+
+h1,h2.no-margin {
+  margin: 0 0;
+}
+
+.move-up-100 {
+  top: -100px;
+}

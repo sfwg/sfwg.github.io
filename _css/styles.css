@@ -128,9 +128,9 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 1.5em 0 0.5em;
+/*  margin: 1.5em 0 0.5em;
   line-height: 1.2;
-  font-family: 'Raleway', sans-serif;
+*/  font-family: 'Raleway', sans-serif;
 }
 
 /* line 67, ../sass/inc/typography.scss */
@@ -404,6 +404,11 @@ blockquote cite:before {
 .av-section-title h2 {
   font-weight: 300;
   font-size: 2.1em;
+  margin-bottom: 0;
+}
+.av-section-title h3 {
+  font-weight: 300;
+  font-size: 1.5em;
   margin-bottom: 0;
 }
 /* line 303, ../sass/inc/typography.scss */
@@ -843,7 +848,7 @@ a.btn-large:focus {
 /* Main Colors */
 /* Paddings */
 /* ============================================
-Generals 
+Generals
 ============================================ */
 /* line 9, ../sass/inc/shortcodes.scss */
 .av-clear {
@@ -872,7 +877,7 @@ Generals
 }
 
 /* ============================================
-Backgrounds 
+Backgrounds
 ============================================ */
 /* line 23, ../sass/inc/shortcodes.scss */
 .av-darker-bg {
@@ -900,7 +905,7 @@ Backgrounds
 }
 
 /* ============================================
-Images Backgrounds 
+Images Backgrounds
 ============================================ */
 /* line 49, ../sass/inc/shortcodes.scss */
 .av-slide-01-bg {
@@ -970,7 +975,7 @@ Images Backgrounds
 }
 
 /* ============================================
-Margins and Paddings  
+Margins and Paddings
 ============================================ */
 /* line 110, ../sass/inc/shortcodes.scss */
 .av-low-pad {
@@ -1013,7 +1018,7 @@ Margins and Paddings
 }
 
 /*============================================
-Milestones 
+Milestones
 ============================================ */
 /* line 123, ../sass/inc/shortcodes.scss */
 .av-milestone {
@@ -1049,7 +1054,7 @@ Milestones
 }
 
 /* ============================================
-Person 
+Person
 ============================================ */
 /* line 160, ../sass/inc/shortcodes.scss */
 .av-person {
@@ -1129,7 +1134,7 @@ Person
 }
 
 /* ============================================
-Price Tables 
+Price Tables
 ============================================ */
 /* line 245, ../sass/inc/shortcodes.scss */
 .av-pricing-table {
@@ -1215,7 +1220,7 @@ Price Tables
 }
 
 /* ============================================
-Client Testimonials 
+Client Testimonials
 ============================================ */
 /* line 334, ../sass/inc/shortcodes.scss */
 .av-client-testimonial {
