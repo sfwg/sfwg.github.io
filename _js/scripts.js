@@ -35,10 +35,10 @@ $(function(){
     
     /* Count up */
     var options = {
-      useEasing : true, 
-      useGrouping : true, 
-      separator : ',', 
-      decimal : '.' 
+      useEasing : true,
+      useGrouping : true,
+      separator : ',',
+      decimal : '.'
     }
 
     $('.av-milestone .av-milestone-info').each(function(){
@@ -58,4 +58,16 @@ $(function(){
     /* Lightbox */
     
     
+    /* Contact Form */
+    $('form').submit(function(e) {
+      e.preventDefault();
+      var params = $(this).serialize();
+      var url = 'https://limitless-harbor-2404.herokuapp.com/create'
+      $.post(url, params, function(response) {
+        var $form = $('form');
+        $form.parent().append("<h2>Thanks for contacting us! We'll be in touch</h2>")
+        $form.hide();
+        console.log(response);
+      });
+    });
 });
