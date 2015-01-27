@@ -29,3 +29,7 @@ h1,h2.no-margin {
 .move-up-100 {
   top: -100px;
 }
+
+.text-justifed {
+  text-align: justify;
+}
