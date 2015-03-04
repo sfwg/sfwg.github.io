@@ -62,7 +62,7 @@ $(function(){
     $('form').submit(function(e) {
       e.preventDefault();
       var params = $(this).serialize();
-      var url = 'https://limitless-harbor-2404.herokuapp.com/create'
+      var url = 'https://kallsenter.herokuapp.com/create'
       $.post(url, params, function(response) {
         var $form = $('form');
         $form.parent().append("<h2>Thanks for contacting us! We'll be in touch</h2>")
